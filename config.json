@@ -1,0 +1,31 @@
+{
+  "brandName": "Rynek Shop",
+  "themeColor": "#3498DB",
+  "ticket": {
+    "categoryId": "1499321421979975833",
+    "staffRoleIds": [
+      "1499321419648077883"
+    ],
+    "channelPrefix": "ticket",
+    "closeDelaySeconds": 5
+  },
+  "products": {
+    "Jailbreak": "1506203233633304688",
+    "Robux": "1512697980011151432",
+    "MM2": "1546969811798462474",
+    "case-world": "1548648793095020574",
+    "Petsim99": "1506203270757089322"
+  },
+  "sticky": {
+    "enabledByDefault": true,
+    "channelId": "1506203473778049096",
+    "refreshOnEveryMessage": true,
+    "sendOnStartup": true
+  },
+  "assets": {
+    "logo": "assets/logo.jpg",
+    "ticketBanner": "assets/ticket-banner.jpg",
+    "legitBanner": "assets/legit-banner.jpg",
+    "productsBanner": "assets/products-banner.png"
+  }
+}

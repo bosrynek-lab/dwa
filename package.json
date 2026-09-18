@@ -1,0 +1,17 @@
+{
+  "name": "rynek-shop-discord-bot-lite",
+  "version": "2.0.0",
+  "description": "Lekka wersja Rynek Shop Discord Bot pod Node.js 18 i hosting z limitem 315 MiB RAM.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --max-old-space-size=128 src/index.js",
+    "check": "node --check src/index.js && node --check src/ui.js && node --check src/storage.js && node --check src/env.js"
+  },
+  "engines": {
+    "node": ">=18.18.0 <19"
+  },
+  "dependencies": {
+    "ws": "8.18.0"
+  }
+}
